@@ -3536,9 +3536,7 @@
         "subcategory": "releases",
         "verb": "post",
         "requestPath": "/repos/{owner}/{repo}/releases",
-        "additional-permissions": [
-          "workflows"
-        ],
+        "additional-permissions": [],
         "access": "write"
       },
       {
@@ -6274,17 +6272,6 @@
         "subcategory": "refs",
         "verb": "patch",
         "requestPath": "/repos/{owner}/{repo}/git/refs/{ref}",
-        "additional-permissions": [
-          "contents"
-        ],
-        "access": "write"
-      },
-      {
-        "category": "releases",
-        "slug": "create-a-release",
-        "subcategory": "releases",
-        "verb": "post",
-        "requestPath": "/repos/{owner}/{repo}/releases",
         "additional-permissions": [
           "contents"
         ],

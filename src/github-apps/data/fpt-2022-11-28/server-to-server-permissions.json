@@ -5043,9 +5043,7 @@
         "access": "write",
         "user-to-server": true,
         "server-to-server": true,
-        "additional-permissions": [
-          "workflows"
-        ]
+        "additional-permissions": []
       },
       {
         "category": "releases",
@@ -8470,19 +8468,6 @@
         "subcategory": "refs",
         "verb": "patch",
         "requestPath": "/repos/{owner}/{repo}/git/refs/{ref}",
-        "access": "write",
-        "user-to-server": true,
-        "server-to-server": true,
-        "additional-permissions": [
-          "contents"
-        ]
-      },
-      {
-        "category": "releases",
-        "slug": "create-a-release",
-        "subcategory": "releases",
-        "verb": "post",
-        "requestPath": "/repos/{owner}/{repo}/releases",
         "access": "write",
         "user-to-server": true,
         "server-to-server": true,
